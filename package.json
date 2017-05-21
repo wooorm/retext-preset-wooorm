@@ -1,0 +1,39 @@
+{
+  "name": "retext-preset-wooorm",
+  "version": "0.0.0",
+  "description": "Personal prose style",
+  "license": "MIT",
+  "keywords": [
+    "retext",
+    "preset",
+    "wooorm"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "retext-contractions": "^2.1.0",
+    "retext-diacritics": "^1.2.0",
+    "retext-indefinite-article": "^1.1.0",
+    "retext-quotes": "^2.0.0",
+    "retext-redundant-acronyms": "^1.2.0",
+    "retext-repeated-words": "^1.2.0",
+    "retext-sentence-spacing": "^2.0.0"
+  },
+  "repository": "wooorm/retext-preset-wooorm",
+  "bugs": "https://github.com/wooorm/retext-preset-wooorm/issues",
+  "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
+  "contributors": [
+    "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)"
+  ],
+  "devDependencies": {
+    "xo": "^0.18.2"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "xo": {
+    "space": true,
+    "esnext": false
+  }
+}
