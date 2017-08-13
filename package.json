@@ -8,6 +8,12 @@
     "preset",
     "wooorm"
   ],
+  "repository": "wooorm/retext-preset-wooorm",
+  "bugs": "https://github.com/wooorm/retext-preset-wooorm/issues",
+  "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
+  "contributors": [
+    "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)"
+  ],
   "files": [
     "index.js"
   ],
@@ -20,12 +26,6 @@
     "retext-repeated-words": "^1.2.0",
     "retext-sentence-spacing": "^2.0.0"
   },
-  "repository": "wooorm/retext-preset-wooorm",
-  "bugs": "https://github.com/wooorm/retext-preset-wooorm/issues",
-  "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
-  "contributors": [
-    "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)"
-  ],
   "devDependencies": {
     "xo": "^0.18.2"
   },
