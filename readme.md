@@ -24,6 +24,11 @@ npm install retext-preset-wooorm --save
 *   Checks [redundant acronyms][ras]
 *   Checks incorrectly placed apostrophes in [contractions][]
 
+## Related
+
+*   [`remark-preset-wooorm`](https://github.com/wooorm/remark-preset-wooorm)
+    — Personal markdown style
+
 ## License
 
 [MIT][license] © [Titus Wormer][author]
