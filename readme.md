@@ -45,18 +45,18 @@ npm install retext-preset-wooorm --save
 
 [author]: http://wooorm.com
 
-[spaces]: https://github.com/wooorm/retext-sentence-spacing
+[spaces]: https://github.com/retextjs/retext-sentence-spacing
 
-[articles]: https://github.com/wooorm/retext-indefinite-article
+[articles]: https://github.com/retextjs/retext-indefinite-article
 
-[quotes]: https://github.com/wooorm/retext-quotes
+[quotes]: https://github.com/retextjs/retext-quotes
 
-[repeated]: https://github.com/wooorm/retext-repeated-words
+[repeated]: https://github.com/retextjs/retext-repeated-words
 
-[contractions]: https://github.com/wooorm/retext-contractions
+[contractions]: https://github.com/retextjs/retext-contractions
 
-[diacritics]: https://github.com/wooorm/retext-diacritics
+[diacritics]: https://github.com/retextjs/retext-diacritics
 
-[ras]: https://github.com/wooorm/retext-redundant-acronyms
+[ras]: https://github.com/retextjs/retext-redundant-acronyms
 
 [docs]: https://github.com/unifiedjs/unified#preset
