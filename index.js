@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 exports.plugins = [
   [require('retext-sentence-spacing'), {preferred: 2}],
@@ -8,4 +8,4 @@ exports.plugins = [
   require('retext-repeated-words'),
   require('retext-indefinite-article'),
   require('retext-contractions')
-];
+]
