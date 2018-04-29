@@ -27,13 +27,17 @@
     "retext-sentence-spacing": "^2.0.0"
   },
   "devDependencies": {
-    "xo": "^0.18.2"
+    "xo": "^0.20.0"
   },
   "scripts": {
     "test": "xo"
   },
   "xo": {
     "space": true,
-    "esnext": false
+    "esnext": false,
+    "rules": {
+      "no-var": "off",
+      "prefer-arrow-callback": "off"
+    }
   }
 }
