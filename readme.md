@@ -41,7 +41,7 @@ npm install retext-preset-wooorm --save
 
 [npm]: https://docs.npmjs.com/cli/install
 
-[license]: LICENSE
+[license]: license
 
 [author]: http://wooorm.com
 
