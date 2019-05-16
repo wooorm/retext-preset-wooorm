@@ -43,7 +43,7 @@ npm install retext-preset-wooorm --save
 
 [license]: license
 
-[author]: http://wooorm.com
+[author]: https://wooorm.com
 
 [spaces]: https://github.com/retextjs/retext-sentence-spacing
 
