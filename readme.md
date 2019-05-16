@@ -1,4 +1,8 @@
-# retext-preset-wooorm [![Build Status][travis-badge]][travis]
+# retext-preset-wooorm
+
+[![Build][build-badge]][build]
+[![Downloads][downloads-badge]][downloads]
+[![Size][size-badge]][size]
 
 My personal prose style.
 
@@ -35,9 +39,17 @@ npm install retext-preset-wooorm --save
 
 <!-- Definitions -->
 
-[travis-badge]: https://img.shields.io/travis/wooorm/remark-preset-wooorm.svg
+[build-badge]: https://img.shields.io/travis/wooorm/retext-preset-wooorm.svg
 
-[travis]: https://travis-ci.org/wooorm/remark-preset-wooorm
+[build]: https://travis-ci.org/wooorm/retext-preset-wooorm
+
+[downloads-badge]: https://img.shields.io/npm/dm/retext-preset-wooorm.svg
+
+[downloads]: https://www.npmjs.com/package/retext-preset-wooorm
+
+[size-badge]: https://img.shields.io/bundlephobia/minzip/retext-preset-wooorm.svg
+
+[size]: https://bundlephobia.com/result?p=retext-preset-wooorm
 
 [npm]: https://docs.npmjs.com/cli/install
 
