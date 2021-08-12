@@ -21,13 +21,13 @@
     "index.js"
   ],
   "dependencies": {
-    "retext-contractions": "^4.0.0",
-    "retext-diacritics": "^3.0.0",
-    "retext-indefinite-article": "^2.0.0",
-    "retext-quotes": "^4.0.0",
-    "retext-redundant-acronyms": "^3.0.0",
-    "retext-repeated-words": "^3.0.0",
-    "retext-sentence-spacing": "^4.0.0"
+    "retext-contractions": "^5.0.0",
+    "retext-diacritics": "^4.0.0",
+    "retext-indefinite-article": "^3.0.0",
+    "retext-quotes": "^5.0.0",
+    "retext-redundant-acronyms": "^4.0.0",
+    "retext-repeated-words": "^4.0.0",
+    "retext-sentence-spacing": "^5.0.0"
   },
   "devDependencies": {
     "prettier": "^2.0.0",
