@@ -6,7 +6,7 @@ import retextRepeatedWords from 'retext-repeated-words'
 import retextIndefiniteArticle from 'retext-indefinite-article'
 import retextContractions from 'retext-contractions'
 
-exports.plugins = [
+const plugins = [
   [retextSentenceSpacing, {preferred: 2}],
   [retextQuotes, {preferred: 'smart'}],
   retextDiacritics,
@@ -15,3 +15,7 @@ exports.plugins = [
   retextIndefiniteArticle,
   retextContractions
 ]
+
+const retextPresetWooorm = {plugins}
+
+export default retextPresetWooorm
