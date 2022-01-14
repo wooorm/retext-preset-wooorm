@@ -25,7 +25,7 @@
   "dependencies": {
     "retext-contractions": "^5.0.0",
     "retext-diacritics": "^4.0.0",
-    "retext-indefinite-article": "^3.0.0",
+    "retext-indefinite-article": "^4.0.0",
     "retext-quotes": "^5.0.0",
     "retext-redundant-acronyms": "^4.0.0",
     "retext-repeated-words": "^4.0.0",
