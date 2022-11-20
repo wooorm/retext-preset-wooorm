@@ -13,7 +13,7 @@ import retextContractions from 'retext-contractions'
 /** @type {Preset} */
 const retextPresetWooorm = {
   plugins: [
-    [retextSentenceSpacing, {preferred: 2}],
+    [retextSentenceSpacing, {preferred: 'newline'}],
     [retextQuotes, {preferred: 'smart'}],
     retextDiacritics,
     retextRedundantAcronyms,

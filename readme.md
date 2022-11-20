@@ -90,7 +90,7 @@ Preset to support my personal prose style.
 
 ###### Natural Language
 
-*   two [spaces][] between sentences (but: prefer a line break instead!)
+*   a [line ending][sentence] between sentences
 *   checks [“indefinite articles”][articles]: “a” or “an”
 *   checks [quotes and apostrophes][quotes] (`""` > `“”`)
 *   checks accidental [repeated words][repeated]
@@ -157,7 +157,7 @@ This package is safe.
 
 [retext]: https://github.com/retextjs/retext
 
-[spaces]: https://github.com/retextjs/retext-sentence-spacing
+[sentence]: https://github.com/retextjs/retext-sentence-spacing
 
 [articles]: https://github.com/retextjs/retext-indefinite-article
 
