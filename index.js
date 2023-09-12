@@ -10,7 +10,21 @@ import retextRedundantAcronyms from 'retext-redundant-acronyms'
 import retextRepeatedWords from 'retext-repeated-words'
 import retextSentenceSpacing from 'retext-sentence-spacing'
 
-/** @type {Preset} */
+/**
+ * Preset to support my personal prose style.
+ *
+ * ###### Notes
+ *
+ * *   checks for a line ending between sentences
+ * *   checks “indefinite articles”: “a” or “an”
+ * *   checks quotes and apostrophes (`""` > `“”`)
+ * *   checks accidental repeated words
+ * *   checks diacritics
+ * *   checks redundant acronyms
+ * *   checks incorrectly placed apostrophes in contractions
+ *
+ * @type {Preset}
+ */
 const retextPresetWooorm = {
   plugins: [
     retextContractions,

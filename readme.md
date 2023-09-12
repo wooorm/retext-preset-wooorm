@@ -13,8 +13,7 @@ My personal prose style.
 *   [Install](#install)
 *   [Use](#use)
 *   [API](#api)
-    *   [`retextPresetWooorm`](#retextpresetwooorm)
-*   [Checks](#checks)
+    *   [`unified().use(retextPresetWooorm)`](#unifieduseretextpresetwooorm)
 *   [Types](#types)
 *   [Compatibility](#compatibility)
 *   [Related](#related)
@@ -35,7 +34,7 @@ But you can also create your own personal style preset.
 ## Install
 
 This package is [ESM only][esm].
-In Node.js (version 14.14+, 16.0+), install with [npm][]:
+In Node.js (version 16+), install with [npm][]:
 
 ```sh
 npm install retext-preset-wooorm
@@ -72,7 +71,7 @@ console.error(reporter(file))
 Yields:
 
 ```txt
-  1:6-1:13  warning  Expected `and` once, not twice  and  retext-repeated-words
+1:6-1:13 warning Unexpected repeated `and`, remove one occurrence and retext-repeated-words
 
 ⚠ 1 warning
 ```
@@ -80,23 +79,22 @@ Yields:
 ## API
 
 This package exports no identifiers.
-The default export is `retextPresetWooorm`.
+The default export is [`retextPresetWooorm`][api-retext-preset-wooorm].
 
-### `retextPresetWooorm`
+### `unified().use(retextPresetWooorm)`
 
-Preset to support my personal prose style.
+Preset to support my personal prose style ([`Preset`][unified-preset]).
 
-## Checks
+###### Notes
 
-###### Natural Language
-
-*   a [line ending][sentence] between sentences
-*   checks [“indefinite articles”][articles]: “a” or “an”
-*   checks [quotes and apostrophes][quotes] (`""` > `“”`)
-*   checks accidental [repeated words][repeated]
-*   checks [diacritics][]
-*   checks [redundant acronyms][ras]
-*   checks incorrectly placed apostrophes in [contractions][]
+*   checks for a [line ending][retext-sentence-spacing] between sentences
+*   checks [“indefinite articles”][retext-indefinite-article]: “a” or “an”
+*   checks [quotes and apostrophes][retext-quotes] (`""` > `“”`)
+*   checks accidental [repeated words][retext-repeated-words]
+*   checks [diacritics][retext-diacritics]
+*   checks [redundant acronyms][retext-redundant-acronyms]
+*   checks incorrectly placed apostrophes in
+    [contractions][retext-contractions]
 
 ## Types
 
@@ -105,9 +103,12 @@ It exports no additional types.
 
 ## Compatibility
 
-This package is at least compatible with all maintained versions of Node.js.
-As of now, that is Node.js 14.14+ and 16.0+.
-It also works in Deno and modern browsers.
+Projects maintained by me are compatible with maintained versions of Node.js.
+
+When I cut a new major release, I drop support for unmaintained versions of
+Node.
+This means we try to keep the current release line, `retext-preset-wooorm@^4`,
+compatible with Node.js 12.
 
 ## Related
 
@@ -137,9 +138,9 @@ This package is safe.
 
 [downloads]: https://www.npmjs.com/package/retext-preset-wooorm
 
-[size-badge]: https://img.shields.io/bundlephobia/minzip/retext-preset-wooorm.svg
+[size-badge]: https://img.shields.io/bundlejs/size/retext-preset-wooorm
 
-[size]: https://bundlephobia.com/result?p=retext-preset-wooorm
+[size]: https://bundlejs.com/?q=retext-preset-wooorm
 
 [npm]: https://docs.npmjs.com/cli/install
 
@@ -157,16 +158,20 @@ This package is safe.
 
 [retext]: https://github.com/retextjs/retext
 
-[sentence]: https://github.com/retextjs/retext-sentence-spacing
+[retext-contractions]: https://github.com/retextjs/retext-contractions
 
-[articles]: https://github.com/retextjs/retext-indefinite-article
+[retext-diacritics]: https://github.com/retextjs/retext-diacritics
 
-[quotes]: https://github.com/retextjs/retext-quotes
+[retext-indefinite-article]: https://github.com/retextjs/retext-indefinite-article
 
-[repeated]: https://github.com/retextjs/retext-repeated-words
+[retext-quotes]: https://github.com/retextjs/retext-quotes
 
-[contractions]: https://github.com/retextjs/retext-contractions
+[retext-redundant-acronyms]: https://github.com/retextjs/retext-redundant-acronyms
 
-[diacritics]: https://github.com/retextjs/retext-diacritics
+[retext-repeated-words]: https://github.com/retextjs/retext-repeated-words
 
-[ras]: https://github.com/retextjs/retext-redundant-acronyms
+[retext-sentence-spacing]: https://github.com/retextjs/retext-sentence-spacing
+
+[unified-preset]: https://github.com/unifiedjs/unified#preset
+
+[api-retext-preset-wooorm]: #unifieduseretextpresetwooorm
