@@ -107,8 +107,8 @@ Projects maintained by me are compatible with maintained versions of Node.js.
 
 When I cut a new major release, I drop support for unmaintained versions of
 Node.
-This means we try to keep the current release line, `retext-preset-wooorm@^4`,
-compatible with Node.js 12.
+This means we try to keep the current release line, `retext-preset-wooorm@^5`,
+compatible with Node.js 16.
 
 ## Related
 
