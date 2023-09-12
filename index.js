@@ -2,24 +2,24 @@
  * @typedef {import('unified').Preset} Preset
  */
 
-import retextSentenceSpacing from 'retext-sentence-spacing'
-import retextQuotes from 'retext-quotes'
+import retextContractions from 'retext-contractions'
 import retextDiacritics from 'retext-diacritics'
+import retextIndefiniteArticle from 'retext-indefinite-article'
+import retextQuotes from 'retext-quotes'
 import retextRedundantAcronyms from 'retext-redundant-acronyms'
 import retextRepeatedWords from 'retext-repeated-words'
-import retextIndefiniteArticle from 'retext-indefinite-article'
-import retextContractions from 'retext-contractions'
+import retextSentenceSpacing from 'retext-sentence-spacing'
 
 /** @type {Preset} */
 const retextPresetWooorm = {
   plugins: [
-    [retextSentenceSpacing, {preferred: 'newline'}],
-    [retextQuotes, {preferred: 'smart'}],
+    retextContractions,
     retextDiacritics,
+    retextIndefiniteArticle,
+    [retextQuotes, {preferred: 'smart'}],
     retextRedundantAcronyms,
     retextRepeatedWords,
-    retextIndefiniteArticle,
-    retextContractions
+    [retextSentenceSpacing, {preferred: 'newline'}]
   ]
 }
 
