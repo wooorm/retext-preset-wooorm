@@ -23,14 +23,14 @@
     "index.js"
   ],
   "dependencies": {
-    "retext-contractions": "^5.0.0",
-    "retext-diacritics": "^4.0.0",
-    "retext-indefinite-article": "^4.0.0",
-    "retext-quotes": "^5.0.0",
-    "retext-redundant-acronyms": "^4.0.0",
-    "retext-repeated-words": "^4.0.0",
-    "retext-sentence-spacing": "^5.0.0",
-    "unified": "^10.0.0"
+    "retext-contractions": "^6.0.0",
+    "retext-diacritics": "^5.0.0",
+    "retext-indefinite-article": "^5.0.0",
+    "retext-quotes": "^6.0.0",
+    "retext-redundant-acronyms": "^5.0.0",
+    "retext-repeated-words": "^5.0.0",
+    "retext-sentence-spacing": "^6.0.0",
+    "unified": "^11.0.0"
   },
   "devDependencies": {
     "@types/tape": "^5.0.0",
