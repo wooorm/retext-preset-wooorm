@@ -43,14 +43,14 @@ npm install retext-preset-wooorm
 In Deno with [`esm.sh`][esmsh]:
 
 ```js
-import retextPresetWooorm from 'https://esm.sh/retext-preset-wooorm@4'
+import retextPresetWooorm from 'https://esm.sh/retext-preset-wooorm@5'
 ```
 
 In browsers with [`esm.sh`][esmsh]:
 
 ```html
 <script type="module">
-  import retextPresetWooorm from 'https://esm.sh/retext-preset-wooorm@4?bundle'
+  import retextPresetWooorm from 'https://esm.sh/retext-preset-wooorm@5?bundle'
 </script>
 ```
 
