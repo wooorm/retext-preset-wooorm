@@ -8,18 +8,18 @@ My personal prose style.
 
 ## Contents
 
-*   [What is this?](#what-is-this)
-*   [When should I use this?](#when-should-i-use-this)
-*   [Install](#install)
-*   [Use](#use)
-*   [API](#api)
-    *   [`unified().use(retextPresetWooorm)`](#unifieduseretextpresetwooorm)
-*   [Types](#types)
-*   [Compatibility](#compatibility)
-*   [Related](#related)
-*   [Contribute](#contribute)
-*   [Security](#security)
-*   [License](#license)
+* [What is this?](#what-is-this)
+* [When should I use this?](#when-should-i-use-this)
+* [Install](#install)
+* [Use](#use)
+* [API](#api)
+  * [`unified().use(retextPresetWooorm)`](#unifieduseretextpresetwooorm)
+* [Types](#types)
+* [Compatibility](#compatibility)
+* [Related](#related)
+* [Contribute](#contribute)
+* [Security](#security)
+* [License](#license)
 
 ## What is this?
 
@@ -87,14 +87,14 @@ Preset to support my personal prose style ([`Preset`][unified-preset]).
 
 ###### Notes
 
-*   checks for a [line ending][retext-sentence-spacing] between sentences
-*   checks [“indefinite articles”][retext-indefinite-article]: “a” or “an”
-*   checks [quotes and apostrophes][retext-quotes] (`""` > `“”`)
-*   checks accidental [repeated words][retext-repeated-words]
-*   checks [diacritics][retext-diacritics]
-*   checks [redundant acronyms][retext-redundant-acronyms]
-*   checks incorrectly placed apostrophes in
-    [contractions][retext-contractions]
+* checks for a [line ending][retext-sentence-spacing] between sentences
+* checks [“indefinite articles”][retext-indefinite-article]: “a” or “an”
+* checks [quotes and apostrophes][retext-quotes] (`""` > `“”`)
+* checks accidental [repeated words][retext-repeated-words]
+* checks [diacritics][retext-diacritics]
+* checks [redundant acronyms][retext-redundant-acronyms]
+* checks incorrectly placed apostrophes in
+  [contractions][retext-contractions]
 
 ## Types
 
@@ -112,8 +112,8 @@ compatible with Node.js 16.
 
 ## Related
 
-*   [`remark-preset-wooorm`](https://github.com/wooorm/remark-preset-wooorm)
-    — personal markdown style
+* [`remark-preset-wooorm`](https://github.com/wooorm/remark-preset-wooorm)
+  — personal markdown style
 
 ## Contribute
 
